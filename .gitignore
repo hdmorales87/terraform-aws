@@ -1,0 +1,47 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+!example.tfvars
+!terraform.tfvars.example
+
+# Terraform lock file
+.terraform.lock.hcl
+
+# Terraform plugin cache directory
+.terraform/
+
+# Terraform plan files
+*.plan
+*.tfplan
+
+# Terraform override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform crash logs
+crash.log
+crash.*.log
+
+# Terraform workspace files
+.terraform.workspace
+terraform.tfstate.backup
+
+# Terraform .tfstate files (keep safe)
+*.tfstate
+*.tfstate.*
+!**/*.tfstate.example
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS files
+Thumbs.db
